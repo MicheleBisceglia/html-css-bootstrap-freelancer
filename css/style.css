@@ -1,0 +1,22 @@
+/* Debug */
+.ms_header {
+    background-color: black;
+}
+
+.ms_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ms_banner {
+    background-color: green;
+}
+
+.ms_banner2 {
+    border: solid black 2px;
+}
+
+.ms_footer {
+    background-color: black;
+}
+/* /Debug */
