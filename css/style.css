@@ -119,6 +119,12 @@ header a {
     border-radius: 2px;
     margin-bottom: 2rem;
 }
+
+.ms_s3-btn:hover {
+    background-color: white;
+    color: var(--ms_green-color);
+
+}
 /* /section3 */
 
 /*section 4*/
@@ -150,6 +156,10 @@ footer span {
     text-align: center;
     padding: 1rem;
     padding-bottom: 1rem;
+}
+
+.ms_footer-link:hover{
+    color: var(--ms_green-color);
 }
 
 
