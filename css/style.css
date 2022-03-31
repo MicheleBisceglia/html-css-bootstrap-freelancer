@@ -17,7 +17,7 @@
     .ms_hamburger {
         display: block;
     }
-    .ms_list_item {
+    .ms_list-item {
         display: none;
     }
 }
@@ -69,6 +69,18 @@ header li {
     font-size: 15px;
     padding-bottom: 30px;
 }
+header a {
+    text-decoration: none;
+    color: white;
+}
+.ms_list-item li:hover a {
+     color: var(--ms_green-color);
+}
+
+.ms_hamburger:hover i{
+    color: var(--ms_green-color);
+}
+
 /* /ms_section-1*/
 
 /*ms_section-2*/
@@ -101,12 +113,25 @@ header li {
     padding-top: 2rem;
 }
 .ms_s3-btn {
-    background-color:#1abc9c;
+    background-color: var(--ms_green-color);
     border-color: white;
     color: white;
     border-radius: 2px;
     margin-bottom: 2rem;
 }
+/* /section3 */
+
+/*section 4*/
+.ms_form-title {
+    text-align: center;
+}
+
+.ms_form-btn {
+    background-color: var(--ms_green-color);
+    border: white;
+    margin-bottom: 1rem;
+}
+
 /*footer*/
 footer {
     background-color: var(--ms_gray-color-light);
